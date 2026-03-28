@@ -250,13 +250,6 @@ python scripts/spark_streaming_consumer.py
 
 ---
 
-## Notebooks (để test / học)
-
-| Notebook | Mô tả |
-|---|---|
-| `notebooks/test_kafka_producer.ipynb` | Chạy từng cell để hiểu cách producer kết nối MySQL, sinh event, gửi Kafka, verify offset |
-| `notebooks/spark_streaming_consumer.ipynb` | Chạy từng cell để hiểu schema, readStream, watermark, aggregate, foreachBatch |
-
 ---
 
 ## Config mặc định
