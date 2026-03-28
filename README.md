@@ -69,10 +69,8 @@ Realtime_project/
 │   ├── kafka_producer_batch.py          # MySQL → generate events → Kafka (gửi 1 batch rồi thoát)
 │   └── spark_streaming_consumer.py      # Kafka → aggregate → MySQL events
 ├── dags/                                # Apache Airflow DAGs
-│   └── job_tracking_pipeline.py         # DAG tự động hóa toàn bộ pipeline
-└── notebooks/                           # dùng để test / tìm hiểu từng bước
-    ├── test_kafka_producer.ipynb        # demo step-by-step producer
-    └── spark_streaming_consumer.ipynb   # demo step-by-step consumer
+    └── job_tracking_pipeline.py         # DAG tự động hóa toàn bộ pipeline
+
 ```
 
 ---
